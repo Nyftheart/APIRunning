@@ -1,38 +1,32 @@
 ﻿<Properties StartupConfiguration="{3D6E005F-9AE4-4D9E-AB10-C443169FACDD}|Default">
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.APIRunning PreferredExecutionTarget="/Applications/Opera GX.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="APIRunning/Properties/launchSettings.json">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.APIRunning PreferredExecutionTarget="/Applications/Arc.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="APIRunning/Controllers/CoursesController.cs">
     <Files>
       <File FileName="APIRunning/Program.cs" Line="1" Column="1" />
-      <File FileName="APIRunning/Data/ArchiDB.cs" Line="19" Column="63" />
+      <File FileName="APIRunning/Data/ArchiDB.cs" Line="1" Column="1" />
       <File FileName="APIRunning/Models/User.cs" />
-      <File FileName="APIRunning/appsettings.json" />
-      <File FileName="APIRunning/Controllers/UsersController.cs" Line="1" Column="1" />
+      <File FileName="APIRunning/appsettings.json" Line="1" Column="1" />
+      <File FileName="APIRunning/Controllers/UsersController.cs" />
       <File FileName="APIRunning/Controllers/CoursesController.cs" Line="1" Column="1" />
-      <File FileName="APIRunning/Models/Balise.cs" Line="24" Column="44" />
-      <File FileName="APIRunning/Controllers/BalisesController.cs" Line="71" Column="39" />
-      <File FileName="APIRunning/Models/Course.cs" Line="1" Column="1" />
+      <File FileName="APIRunning/Models/Balise.cs" />
+      <File FileName="APIRunning/Controllers/BalisesController.cs" />
+      <File FileName="APIRunning/Models/Course.cs" />
       <File FileName="APIRunning/Dockerfile" Line="1" Column="1" />
-      <File FileName="APIRunning/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="APIRunning/Properties/launchSettings.json" Line="16" Column="70" />
+      <File FileName="docker-compose.yml" />
+      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="APIRunning" expanded="True">
             <Node name="APIRunning" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="Microsoft.EntityFrameworkCore" expanded="True">
-                    <Node name="Microsoft.Extensions.Logging" selected="True" />
-                  </Node>
-                </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="CoursesController.cs" selected="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
             <Node name="docker-compose" expanded="True">
@@ -43,5 +37,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.TestAPI FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

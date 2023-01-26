@@ -18,7 +18,7 @@ namespace APIRunning.Models
         [Required(ErrorMessage = "Le Lieux est obligatoire.")]
         [StringLength(150)]
         [Column("Lieux")]
-        public string Prenom { get; set; } = "";
+        public string Lieux { get; set; } = "";
 
         [StringLength(150)]
         [Column("Score")]

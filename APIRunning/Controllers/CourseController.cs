@@ -12,16 +12,16 @@ namespace APIRunning.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CoursesController : ControllerBase
+    public class CourseController : ControllerBase
     {
         private readonly ArchiDB _context;
 
-        public CoursesController(ArchiDB context)
+        public CourseController(ArchiDB context)
         {
             _context = context;
         }
 
-        // GET: api/Courses
+        // GET: api/Course
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Course>>> GetCourse()
         {
@@ -32,7 +32,7 @@ namespace APIRunning.Controllers
             return await _context.Course.ToListAsync();
         }
 
-        // GET: api/Courses/5
+        // GET: api/Course/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Course>> GetCourse(int id)
         {
@@ -50,7 +50,7 @@ namespace APIRunning.Controllers
             return course;
         }
 
-        // PUT: api/Courses/5
+        // PUT: api/Course/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCourse(int id, Course course)
@@ -81,7 +81,7 @@ namespace APIRunning.Controllers
             return NoContent();
         }
 
-        // POST: api/Courses
+        // POST: api/Course
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Course>> PostCourse(Course course)
@@ -96,7 +96,7 @@ namespace APIRunning.Controllers
             return CreatedAtAction("GetCourse", new { id = course.ID }, course);
         }
 
-        // DELETE: api/Courses/5
+        // DELETE: api/Course/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCourse(int id)
         {
