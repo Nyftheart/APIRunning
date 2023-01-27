@@ -1,45 +1,59 @@
-﻿<Properties StartupConfiguration="{3D6E005F-9AE4-4D9E-AB10-C443169FACDD}|Default">
-  <MultiItemStartupConfigurations />
+﻿<Properties StartupConfiguration="{DF8ACEB2-FEE0-48BC-8387-F5CAD13D6111}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.APIRunning PreferredExecutionTarget="/Applications/Arc.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="APIRunning/Controllers/CoursesController.cs">
+  <MonoDevelop.Ide.ItemProperties.TestAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="APIRunning/Models/Course.cs">
     <Files>
       <File FileName="APIRunning/Program.cs" Line="1" Column="1" />
       <File FileName="APIRunning/Data/ArchiDB.cs" Line="1" Column="1" />
-      <File FileName="APIRunning/Models/User.cs" />
-      <File FileName="APIRunning/appsettings.json" Line="1" Column="1" />
-      <File FileName="APIRunning/Controllers/UsersController.cs" />
-      <File FileName="APIRunning/Controllers/CoursesController.cs" Line="1" Column="1" />
+      <File FileName="APIRunning/Models/User.cs" Line="21" Column="49" />
+      <File FileName="APIRunning/appsettings.json" />
+      <File FileName="APIRunning/Controllers/UsersController.cs" Line="1" Column="1" />
       <File FileName="APIRunning/Models/Balise.cs" />
       <File FileName="APIRunning/Controllers/BalisesController.cs" />
-      <File FileName="APIRunning/Models/Course.cs" />
-      <File FileName="APIRunning/Dockerfile" Line="1" Column="1" />
-      <File FileName="APIRunning/Properties/launchSettings.json" Line="16" Column="70" />
+      <File FileName="APIRunning/Models/Course.cs" Line="26" Column="1" />
+      <File FileName="APIRunning/Dockerfile" />
+      <File FileName="APIRunning/Properties/launchSettings.json" />
       <File FileName="docker-compose.yml" />
-      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
+      <File FileName="docker-compose.override.yml" />
+      <File FileName="../TestAPI/Usings.cs" Line="1" Column="1" />
+      <File FileName="../TestAPI/UserControlerTests.cs" Line="43" Column="1" />
+      <File FileName="../TestAPI/Data/MockDbContext.cs" Line="24" Column="67" />
+      <File FileName="../TestAPI/CourseControlerTest.cs" Line="42" Column="1" />
+      <File FileName="../TestAPI/BalisesControlerTests.cs" Line="39" Column="6" />
+      <File FileName="APIRunning/Controllers/CourseController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="APIRunning" expanded="True">
             <Node name="APIRunning" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CoursesController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Course.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
             </Node>
             <Node name="docker-compose" expanded="True">
               <Node name="docker-compose.yml" expanded="True" />
             </Node>
+            <Node name="TestAPI" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Data" expanded="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="APIRunning" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.TestAPI FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

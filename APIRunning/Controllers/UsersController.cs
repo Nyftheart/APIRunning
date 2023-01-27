@@ -50,6 +50,18 @@ namespace APIRunning.Controllers
             return user;
         }
 
+        // GET: api/Users/login?email=xxxx&mdp=xxxx
+        [HttpGet("login")]
+        public async Task<ActionResult<User>> GetUser(string email, string mdp)
+        {
+            var user = _context.Users.SingleOrDefault(x => x.Email == email && x.MDP == mdp);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return user;
+        }
+
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
